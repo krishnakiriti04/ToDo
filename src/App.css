@@ -14,12 +14,23 @@
     color: darkcyan;
 }
 
-.check:checked+i {
+.strike {
     text-decoration: line-through;
-    opacity: 50%;
+    color: rgb(0, 0, 0, 0.5);
 }
 
 .carddiv {
     background: rgb(190, 220, 248);
     color: black;
+}
+
+.carddiv:hover {
+    background: rgb(205, 250, 216);
+    color: black;
+    box-shadow: 3px 5px rgb(116, 114, 114);
+}
+
+button {
+    background: none;
+    border: 1px solid gainsboro;
 }
